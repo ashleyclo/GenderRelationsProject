@@ -1,331 +1,433 @@
-Unity Editor version:    2021.1.19f1 (5f5eb8bbdc25)
-Branch:                  2021.1/staging
-Build type:              Release
-Batch mode:              YES
-macOS version:           Version 11.1 (Build 20C69)
-Darwin version:          20.2.0
-Architecture:            x86_64
-Running under Rosetta:   NO
-Available memory:        16384 MB
 Using pre-set license
-Pro License: NO
-Pro License: NO
+Built from '2021.1/staging' branch; Version is '2021.1.19f1 (5f5eb8bbdc25) revision 6250168'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19044.1645; Version 2009; 64bit' Language: 'en' Physical Memory: 32443 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-/Applications/Unity/Unity.app/Contents/MacOS/Unity
+C:\Program Files\Unity 2021.1.19f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-/Users/ashleylocohdonou/Documents/unity/GenderRelationsProject
+C:/Users/ashleylocohdonou/Documents/Unity/GenderRelationsProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60350
-Successfully changed project path to: /Users/ashleylocohdonou/Documents/unity/GenderRelationsProject
-/Users/ashleylocohdonou/Documents/unity/GenderRelationsProject
+53893
+Successfully changed project path to: C:/Users/ashleylocohdonou/Documents/Unity/GenderRelationsProject
+C:/Users/ashleylocohdonou/Documents/Unity/GenderRelationsProject
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 87.30 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 76.37 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.19f1 (5f5eb8bbdc25)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/ashleylocohdonou/Documents/unity/GenderRelationsProject/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.1.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ashleylocohdonou/Documents/Unity/GenderRelationsProject/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-2022-04-21 15:39:22.767 Unity[86245:3160675] iMac preferred device: AMD Radeon R9 M390 (high power)
-2022-04-21 15:39:22.767 Unity[86245:3160675] Metal devices available: 1
-2022-04-21 15:39:22.767 Unity[86245:3160675] 0: AMD Radeon R9 M390 (high power)
-2022-04-21 15:39:22.767 Unity[86245:3160675] Using device AMD Radeon R9 M390 (high power)
-Initializing Metal device caps: AMD Radeon R9 M390
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2488)
+    Vendor:   NVIDIA
+    VRAM:     8043 MB
+    Driver:   30.0.15.1213
 Initialize mono
-Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56245
+Mono path[0] = 'C:/Program Files/Unity 2021.1.19f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.1.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity 2021.1.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56560
 Begin MonoManager ReloadAssembly
-Error scanning for extension ivy.xml files: System.UnauthorizedAccessException: Access to the path '/Applications/Unity/PlaybackEngines/WebGLSupport/BuildTools/Emscripten_Mac/node' is denied.
-  at System.IO.__Error.WinIOError (System.Int32 errorCode, System.String maybeFullPath) [0x00129] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.IO.FileSystemEnumerableIterator`1[TSource].HandleError (System.Int32 hr, System.String path) [0x00006] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.IO.FileSystemEnumerableIterator`1[TSource].AddSearchableDirsToStack (System.IO.Directory+SearchData localSearchData) [0x00053] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.IO.FileSystemEnumerableIterator`1[TSource].MoveNext () [0x0008e] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Collections.Generic.List`1[T]..ctor (System.Collections.Generic.IEnumerable`1[T] collection) [0x00077] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.IO.Directory.InternalGetFileDirectoryNames (System.String path, System.String userPathOriginal, System.String searchPattern, System.Boolean includeFiles, System.Boolean includeDirs, System.IO.SearchOption searchOption, System.Boolean checkHost) [0x0000f] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.IO.Directory.InternalGetFiles (System.String path, System.String searchPattern, System.IO.SearchOption searchOption) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.IO.Directory.GetFiles (System.String path, System.String searchPattern, System.IO.SearchOption searchOption) [0x00038] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at UnityEditor.Modules.ModuleManager.LoadLegacyExtensionsFromIvyFiles () [0x000a5] in /Users/bokken/buildslave/unity/build/Editor/Mono/Modules/ModuleManager.cs:253 
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.054447 seconds.
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 85.66 ms, found 2 plugins.
+Register platform support module: C:/Program Files/Unity 2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001680 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 71.88 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.630 seconds
+- Completed reload, in  0.866 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3630ms)
-		BeginReloadAssembly (278ms)
+	ReloadAssembly (866ms)
+		BeginReloadAssembly (48ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (581ms)
-			LoadAssemblies (282ms)
+		EndReloadAssembly (349ms)
+			LoadAssemblies (46ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (208ms)
+			SetupTypeCache (117ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (283ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (175ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (86ms)
+				RefreshPlugins (72ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (144ms)
-				ProcessInitializeOnLoadMethodAttributes (45ms)
+				ProcessInitializeOnLoadAttributes (72ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.098764 seconds.
+Registered in 0.006159 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/ashleylocohdonou/Documents/unity/GenderRelationsProject/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/ashleylocohdonou/Documents/unity/GenderRelationsProject/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 85.28 ms, found 2 plugins.
+Symbol file LoadedFromMemory doesn't match image C:\Users\ashleylocohdonou\Documents\Unity\GenderRelationsProject\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\ashleylocohdonou\Documents\Unity\GenderRelationsProject\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 74.16 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.666 seconds
+- Completed reload, in  0.969 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1667ms)
-		BeginReloadAssembly (170ms)
+	ReloadAssembly (970ms)
+		BeginReloadAssembly (113ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (1427ms)
-			LoadAssemblies (289ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (808ms)
+			LoadAssemblies (74ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (430ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (65ms)
-			SetupLoadedEditorAssemblies (519ms)
+			SetupTypeCache (253ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (361ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (85ms)
+				RefreshPlugins (74ms)
 				BeforeProcessingInitializeOnLoad (62ms)
-				ProcessInitializeOnLoadAttributes (358ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (208ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3422 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 260.8 MB.
-System memory in use after: 260.3 MB.
+System memory in use before: 128.5 MB.
+System memory in use after: 128.0 MB.
 
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 3891.
-Total: 3.420822 ms (FindLiveObjects: 0.237085 ms CreateObjectMapping: 0.129833 ms MarkObjects: 2.769977 ms  DeleteObjects: 0.283202 ms)
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 3870.
+Total: 3.124700 ms (FindLiveObjects: 0.420400 ms CreateObjectMapping: 0.171400 ms MarkObjects: 2.306700 ms  DeleteObjects: 0.224700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/StarterAssets/FirstPersonController/Prefabs/PlayerFollowCamera.prefab
-  artifactKey: Guid(9c489a8547f4d9e4387da15a4ff82c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/FirstPersonController/Prefabs/PlayerFollowCamera.prefab using Guid(9c489a8547f4d9e4387da15a4ff82c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb320f7b2683ccd04aa012a842894c95') in 1.108317 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/StarterAssets/FirstPersonController/Prefabs/PlayerCapsule.prefab
-  artifactKey: Guid(c5efc39a8aaf6e64ea40e9ad573e9b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/FirstPersonController/Prefabs/PlayerCapsule.prefab using Guid(c5efc39a8aaf6e64ea40e9ad573e9b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aafbf33344d5bc2d62f7eafa59d11d5') in 0.336410 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/StarterAssets
-  artifactKey: Guid(027d6d79f30c54d92a81804295562f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets using Guid(027d6d79f30c54d92a81804295562f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0bd8a4f7c7a1c47faa2b3115834f970') in 0.001186 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/StarterAssets/FirstPersonController/Prefabs/NestedParent_Unpack.prefab
-  artifactKey: Guid(035bf1ba97d19214580cfe6f5a29fdc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/FirstPersonController/Prefabs/NestedParent_Unpack.prefab using Guid(035bf1ba97d19214580cfe6f5a29fdc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76e7cd43dfb5f99ba01d99aa614c615e') in 0.022188 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/StarterAssets/FirstPersonController/Prefabs/MainCamera.prefab
-  artifactKey: Guid(2d3a85ecde41a8246a79669975912b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/FirstPersonController/Prefabs/MainCamera.prefab using Guid(2d3a85ecde41a8246a79669975912b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7496d13aa4ea5947652f6d17b07a9b23') in 0.003347 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/StarterAssets/FirstPersonController/Prefabs
-  artifactKey: Guid(3547d539220f51a4599294020a5f42cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/FirstPersonController/Prefabs using Guid(3547d539220f51a4599294020a5f42cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6550ccb0e391ce741f6058553dc12b8') in 0.001914 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/StarterAssets/FirstPersonController
-  artifactKey: Guid(24b6cfc1f7567ec448cc19d73d593576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/FirstPersonController using Guid(24b6cfc1f7567ec448cc19d73d593576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eacbf980d411708422213201f6f605f') in 0.001274 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002501 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/ashleylocohdonou/Documents/unity/GenderRelationsProject/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/ashleylocohdonou/Documents/unity/GenderRelationsProject/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.226 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1226ms)
-		BeginReloadAssembly (135ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (72ms)
-		EndReloadAssembly (1024ms)
-			LoadAssemblies (73ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (422ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (338ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (45ms)
-				ProcessInitializeOnLoadAttributes (278ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3408 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 271.2 MB.
-System memory in use after: 270.8 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3901.
-Total: 3.382543 ms (FindLiveObjects: 0.225076 ms CreateObjectMapping: 0.117682 ms MarkObjects: 2.790752 ms  DeleteObjects: 0.248304 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002561 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/ashleylocohdonou/Documents/unity/GenderRelationsProject/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/ashleylocohdonou/Documents/unity/GenderRelationsProject/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.354 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1355ms)
-		BeginReloadAssembly (144ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (79ms)
-		EndReloadAssembly (1137ms)
-			LoadAssemblies (82ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (481ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (365ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (48ms)
-				ProcessInitializeOnLoadAttributes (300ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3408 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 271.6 MB.
-System memory in use after: 271.2 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3903.
-Total: 4.659462 ms (FindLiveObjects: 0.407215 ms CreateObjectMapping: 0.249727 ms MarkObjects: 3.726658 ms  DeleteObjects: 0.274874 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1953.076167 seconds.
-  path: Assets/Scenes/InsideScene/room/Ch02_nonPBR.fbx
+  path: Assets/Scenes/InsideScene/Room/character.fbx
   artifactKey: Guid(739c32dcd5bb5409fbb369497df0e707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/InsideScene/room/Ch02_nonPBR.fbx using Guid(739c32dcd5bb5409fbb369497df0e707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86d09e6cd49d4978fa8d3584d3b64e0c') in 1.605429 seconds 
+Start importing Assets/Scenes/InsideScene/Room/character.fbx using Guid(739c32dcd5bb5409fbb369497df0e707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '101108f709fb8054b950b5b840c5e4b0') in 0.179659 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.922104 seconds.
-  path: Assets/Scenes/InsideScene/room/character.fbx
-  artifactKey: Guid(739c32dcd5bb5409fbb369497df0e707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/InsideScene/room/character.fbx using Guid(739c32dcd5bb5409fbb369497df0e707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb3e0979e98e3c8ff4ea01c0cea9dcb4') in 0.108235 seconds 
+  Time since last request: 0.000299 seconds.
+  path: Assets/Scenes/InsideScene/Room
+  artifactKey: Guid(6dcce22b0abd34505ab931b3c7b8d3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/InsideScene/Room using Guid(6dcce22b0abd34505ab931b3c7b8d3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10d2d73ee879c824b3283dc2c8fdb61e') in 0.003644 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 66.078334 seconds.
-  path: Assets/Scenes/InsideScene/room/character.fbx
+  Time since last request: 0.099159 seconds.
+  path: Assets/Scenes/InsideScene/Room/Characters
+  artifactKey: Guid(27808fa48ef1c2c42a99748dd8f5206f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/InsideScene/Room/Characters using Guid(27808fa48ef1c2c42a99748dd8f5206f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba9d51cdb2e0cf9aeebaf6226f705cca') in 0.004191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.074346 seconds.
+  path: Assets/Scenes/InsideScene/Room/Characters/Ashley.fbx
+  artifactKey: Guid(d56c805f21f1462438b9b26aa31d6f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/InsideScene/Room/Characters/Ashley.fbx using Guid(d56c805f21f1462438b9b26aa31d6f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '564f3056ec2c41803fe4b133e044579b') in 0.185010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.118842 seconds.
+  path: Assets/Scenes/InsideScene/Room/characters
+  artifactKey: Guid(27808fa48ef1c2c42a99748dd8f5206f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/InsideScene/Room/characters using Guid(27808fa48ef1c2c42a99748dd8f5206f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1da9023fc505cbe705e958dc74739f65') in 0.003479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.438964 seconds.
+  path: Assets/Scenes/InsideScene/Room/characters/FakeChar.fbx
   artifactKey: Guid(739c32dcd5bb5409fbb369497df0e707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/InsideScene/room/character.fbx using Guid(739c32dcd5bb5409fbb369497df0e707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b22d33d71405346ed61fc64427271d93') in 0.113189 seconds 
+Start importing Assets/Scenes/InsideScene/Room/characters/FakeChar.fbx using Guid(739c32dcd5bb5409fbb369497df0e707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '028645ca0f1e81ea63c747a274ae719d') in 0.164298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.982455 seconds.
+  path: Assets/Scenes/InsideScene/Room/characters/Ashley.fbx
+  artifactKey: Guid(d56c805f21f1462438b9b26aa31d6f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/InsideScene/Room/characters/Ashley.fbx using Guid(d56c805f21f1462438b9b26aa31d6f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fef6fb2c8fa36689b38bef22f13fd937') in 0.346053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.709913 seconds.
+  path: Assets/Scenes/InsideScene/Room/characters/1622793658-eye-01-mask.jpg
+  artifactKey: Guid(becb873c80cef6f42851b3b6d44aa214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/InsideScene/Room/characters/1622793658-eye-01-mask.jpg using Guid(becb873c80cef6f42851b3b6d44aa214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86561719bede17f87c5c462f7c480b69') in 0.132664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Scenes/InsideScene/Room/characters/jacket-01-05-D.jpg
+  artifactKey: Guid(1783a719eaca1ca4fbd2ebdbe36c6790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/InsideScene/Room/characters/jacket-01-05-D.jpg using Guid(1783a719eaca1ca4fbd2ebdbe36c6790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '550dadc9e66e80907e8c74e95d4cc92d') in 0.009846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Scenes/InsideScene/Room/characters/sneakers-RTFKT-01-D.jpg
+  artifactKey: Guid(654ed2b652371a64facfea2ec182330a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/InsideScene/Room/characters/sneakers-RTFKT-01-D.jpg using Guid(654ed2b652371a64facfea2ec182330a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bf1a54e88ceee1b547143599f512eb5') in 0.087205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Scenes/InsideScene/Room/characters/face_texture.jpg
+  artifactKey: Guid(729be8e2efbb43a4dbc79e0fbeaf5ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/InsideScene/Room/characters/face_texture.jpg using Guid(729be8e2efbb43a4dbc79e0fbeaf5ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b693a40ff1e6c95e31cc9150aa6db220') in 0.007781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Scenes/InsideScene/Room/characters/jacket-01-05-N.jpg
+  artifactKey: Guid(6b792197c2132e242b5848e0bfa25682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/InsideScene/Room/characters/jacket-01-05-N.jpg using Guid(6b792197c2132e242b5848e0bfa25682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc6447f2c27bcc0867cb2934defe1ba') in 0.009758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Scenes/InsideScene/Room/characters/pants-09-01-D.jpg
+  artifactKey: Guid(229ba43c153a0dc48a0081585c2f78ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/InsideScene/Room/characters/pants-09-01-D.jpg using Guid(229ba43c153a0dc48a0081585c2f78ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e638ef70cde29475be08d82bac3940fe') in 0.009093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Scenes/InsideScene/Room/characters/jacket-01-05-E.jpg
+  artifactKey: Guid(746f54fd50dfc2d44aa84d963ad00f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/InsideScene/Room/characters/jacket-01-05-E.jpg using Guid(746f54fd50dfc2d44aa84d963ad00f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bc87b67592a3def18c1b659df1c57c8') in 0.008849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Scenes/InsideScene/Room/characters/Wolf3D-f-fullbody-N.jpg
+  artifactKey: Guid(f254a9f9a32ee6641a40a09068d598df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/InsideScene/Room/characters/Wolf3D-f-fullbody-N.jpg using Guid(f254a9f9a32ee6641a40a09068d598df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '715a15db59a4c47fefef22d5ddf8cfac') in 0.010139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Scenes/InsideScene/Room/characters/body_texture.jpg
+  artifactKey: Guid(71d26dcaf9949ee4bba8ef43d8b2659f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/InsideScene/Room/characters/body_texture.jpg using Guid(71d26dcaf9949ee4bba8ef43d8b2659f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '330f4751c68ba8e40c6ce4f2997ce5bb') in 0.011544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Scenes/InsideScene/Room/characters/pants-09-01-N.jpg
+  artifactKey: Guid(f432355b4197a3e468e38b4eb39303cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/InsideScene/Room/characters/pants-09-01-N.jpg using Guid(f432355b4197a3e468e38b4eb39303cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ee2421e1b93feb6d4c2bb16e10f3057') in 0.010193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Scenes/InsideScene/Room/characters/sneakers-RTFKT-01-N.jpg
+  artifactKey: Guid(56903423fed42f14581c4ccb5fa28686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/InsideScene/Room/characters/sneakers-RTFKT-01-N.jpg using Guid(56903423fed42f14581c4ccb5fa28686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f801a9001a7c6b2dca9fdc72b6802de0') in 0.008084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Scenes/InsideScene/Room/characters/hair-76-N.png
+  artifactKey: Guid(5e5ca72b357f8b947a87ec2d0e68524e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/InsideScene/Room/characters/hair-76-N.png using Guid(5e5ca72b357f8b947a87ec2d0e68524e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99a8cfdd25acadcf6ff08c6fd333f8c2') in 0.012118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Scenes/InsideScene/Room/characters/Ashley.fbx
+  artifactKey: Guid(d56c805f21f1462438b9b26aa31d6f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/InsideScene/Room/characters/Ashley.fbx using Guid(d56c805f21f1462438b9b26aa31d6f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e69542569d904841ed7eb9324bb3dba0') in 0.091445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Scenes/InsideScene/Room/characters/hair_color.jpg
+  artifactKey: Guid(03e41d53c71bced489807dec010fd1d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/InsideScene/Room/characters/hair_color.jpg using Guid(03e41d53c71bced489807dec010fd1d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6044c11346dc2bd8c1e8d5842ea1c968') in 0.008982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Scenes/InsideScene/Room/characters/Wolf3D_Teeth.jpg
+  artifactKey: Guid(d641ca305f2aae64889c1ee1562d51cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/InsideScene/Room/characters/Wolf3D_Teeth.jpg using Guid(d641ca305f2aae64889c1ee1562d51cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f264f35a95f920a79435a64fe93cac19') in 0.007287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.474240 seconds.
+  path: Assets/Scenes/InsideScene/Room/characters/hair-76-N.png
+  artifactKey: Guid(5e5ca72b357f8b947a87ec2d0e68524e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/InsideScene/Room/characters/hair-76-N.png using Guid(5e5ca72b357f8b947a87ec2d0e68524e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31f7b3c59fa6d90e3570a24ba4f6307c') in 0.046912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Scenes/InsideScene/Room/characters/jacket-01-05-N.jpg
+  artifactKey: Guid(6b792197c2132e242b5848e0bfa25682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/InsideScene/Room/characters/jacket-01-05-N.jpg using Guid(6b792197c2132e242b5848e0bfa25682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66368bc9ab7db03d0fd87f9e6a777e4f') in 0.052384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Scenes/InsideScene/Room/characters/Wolf3D-f-fullbody-N.jpg
+  artifactKey: Guid(f254a9f9a32ee6641a40a09068d598df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/InsideScene/Room/characters/Wolf3D-f-fullbody-N.jpg using Guid(f254a9f9a32ee6641a40a09068d598df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e818d1b498538eac1ef697f116258d77') in 0.011112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/Scenes/InsideScene/Room/characters/pants-09-01-N.jpg
+  artifactKey: Guid(f432355b4197a3e468e38b4eb39303cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/InsideScene/Room/characters/pants-09-01-N.jpg using Guid(f432355b4197a3e468e38b4eb39303cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5de16228c8a7a5031125948666162dd8') in 0.041851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Scenes/InsideScene/Room/characters/sneakers-RTFKT-01-N.jpg
+  artifactKey: Guid(56903423fed42f14581c4ccb5fa28686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/InsideScene/Room/characters/sneakers-RTFKT-01-N.jpg using Guid(56903423fed42f14581c4ccb5fa28686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b01a095df835d8c4e9351c25e4b70652') in 0.045468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 94.947136 seconds.
+  path: Assets/Scenes/InsideScene/Room/characters/Ashley
+  artifactKey: Guid(2374fbe8a36723b408e196ed9d956885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/InsideScene/Room/characters/Ashley using Guid(2374fbe8a36723b408e196ed9d956885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '046d073afdb5d885b8124911454c7400') in 0.003156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 389.609659 seconds.
+  path: Assets/Scenes/InsideScene/Room/characters/Eli
+  artifactKey: Guid(a2a29957c0de603469ef7fbe59382ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/InsideScene/Room/characters/Eli using Guid(a2a29957c0de603469ef7fbe59382ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abbd1e025ed4e8ede4b9506826880a1a') in 0.004521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.304253 seconds.
+  path: Assets/Scenes/InsideScene/Room/characters/Eli/Eli.fbx
+  artifactKey: Guid(68f1862c793f53447a3af12689235baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/InsideScene/Room/characters/Eli/Eli.fbx using Guid(68f1862c793f53447a3af12689235baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a51326727dec7ee8636d8f63ac5bc7') in 0.104590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.762993 seconds.
+  path: Assets/Scenes/InsideScene/Room/characters/Eli/Eli.fbx
+  artifactKey: Guid(68f1862c793f53447a3af12689235baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/InsideScene/Room/characters/Eli/Eli.fbx using Guid(68f1862c793f53447a3af12689235baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5a0b7389f0b99476ae9fe21eb6e0002') in 0.316264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.988260 seconds.
+  path: Assets/Scenes/InsideScene/Room/characters/Eli/1622793658-eye-01-mask.jpg
+  artifactKey: Guid(08eb6f42736906e4eb332dd22b8d9a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/InsideScene/Room/characters/Eli/1622793658-eye-01-mask.jpg using Guid(08eb6f42736906e4eb332dd22b8d9a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0936543b69d0c46bcbf1274c2795d509') in 0.025529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Scenes/InsideScene/Room/characters/Eli/outfit-casual-11-v2-f-footwear-D.jpg
+  artifactKey: Guid(6a49a43f2466e6248a806a26cf2951c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/InsideScene/Room/characters/Eli/outfit-casual-11-v2-f-footwear-D.jpg using Guid(6a49a43f2466e6248a806a26cf2951c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b316761a800575aeeba185d0f3e4e553') in 0.062687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Scenes/InsideScene/Room/characters/Eli/outfit-casual-11-v2-f-bottom-N.jpg
+  artifactKey: Guid(ac0ff20b3b5823944be1655e5a4c6c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/InsideScene/Room/characters/Eli/outfit-casual-11-v2-f-bottom-N.jpg using Guid(ac0ff20b3b5823944be1655e5a4c6c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cd9709a52183fbb95abfde03029df19') in 0.012994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Scenes/InsideScene/Room/characters/Eli/outfit-casual-11-v2-f-bottom-D.jpg
+  artifactKey: Guid(78b84366c43a4824fac6a86eedf151a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/InsideScene/Room/characters/Eli/outfit-casual-11-v2-f-bottom-D.jpg using Guid(78b84366c43a4824fac6a86eedf151a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85edef8a33f1cfd159d19c894ff3ebef') in 0.021113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/Scenes/InsideScene/Room/characters/Eli/outfit-casual-11-v2-f-top-D.jpg
+  artifactKey: Guid(807ac1cc518838449af3a49f5f88da9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/InsideScene/Room/characters/Eli/outfit-casual-11-v2-f-top-D.jpg using Guid(807ac1cc518838449af3a49f5f88da9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ddab3e9424ae3d567348c84404ffd86') in 0.079082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Scenes/InsideScene/Room/characters/Eli/Wolf3D-fullbody-f-N.jpg
+  artifactKey: Guid(8c5141740a3597c41a599463eb72d1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/InsideScene/Room/characters/Eli/Wolf3D-fullbody-f-N.jpg using Guid(8c5141740a3597c41a599463eb72d1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ba12687ab952cc102f7969a30169309') in 0.013016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Scenes/InsideScene/Room/characters/Eli/body_texture.jpg
+  artifactKey: Guid(04c6541ae61187045bb9f0944d04bb1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/InsideScene/Room/characters/Eli/body_texture.jpg using Guid(04c6541ae61187045bb9f0944d04bb1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4bb3584ce683a6a8ffb0c3ea3094757') in 0.007279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Scenes/InsideScene/Room/characters/Eli/Eli.fbx
+  artifactKey: Guid(68f1862c793f53447a3af12689235baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/InsideScene/Room/characters/Eli/Eli.fbx using Guid(68f1862c793f53447a3af12689235baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abc9d3bca6e568bb785c8067d49b2d88') in 0.098295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Scenes/InsideScene/Room/characters/Eli/outfit-casual-11-v2-f-footwear-N.jpg
+  artifactKey: Guid(0130d19d1673b2c4e9e609593c7ae562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/InsideScene/Room/characters/Eli/outfit-casual-11-v2-f-footwear-N.jpg using Guid(0130d19d1673b2c4e9e609593c7ae562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '642c0fc9eac29b055082fde7273b47e8') in 0.008567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Scenes/InsideScene/Room/characters/Eli/hair-64-N.png
+  artifactKey: Guid(a88fd2ef06da9cb4db76f97e69432931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/InsideScene/Room/characters/Eli/hair-64-N.png using Guid(a88fd2ef06da9cb4db76f97e69432931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '442940e70ec208ca46cd44ba456ff77b') in 0.008786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Scenes/InsideScene/Room/characters/Eli/Wolf3D_Teeth.jpg
+  artifactKey: Guid(164ba98d14b13b7469d4d17a710ac65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/InsideScene/Room/characters/Eli/Wolf3D_Teeth.jpg using Guid(164ba98d14b13b7469d4d17a710ac65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbd9cce6429ea08105941d8db1f6d551') in 0.007506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Scenes/InsideScene/Room/characters/Eli/hair_color.jpg
+  artifactKey: Guid(0950ac6a4d7dd5d47a0401e9979f5a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/InsideScene/Room/characters/Eli/hair_color.jpg using Guid(0950ac6a4d7dd5d47a0401e9979f5a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87a16d3c57a2584b4fc193ef93ca9413') in 0.007984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Scenes/InsideScene/Room/characters/Eli/outfit-casual-11-v2-f-top-N.jpg
+  artifactKey: Guid(1cbf023ebd346c441a35088860adcb70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/InsideScene/Room/characters/Eli/outfit-casual-11-v2-f-top-N.jpg using Guid(1cbf023ebd346c441a35088860adcb70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f248c34dca42727e501360f905db3aee') in 0.008859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Scenes/InsideScene/Room/characters/Eli/face_texture.jpg
+  artifactKey: Guid(20b1047579f133840ad37ed76f2b4d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/InsideScene/Room/characters/Eli/face_texture.jpg using Guid(20b1047579f133840ad37ed76f2b4d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f88c7f5ab224bbc2724cee3bd75a42') in 0.007986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.125256 seconds.
+  path: Assets/Scenes/InsideScene/Room/characters/Eli/hair-64-N.png
+  artifactKey: Guid(a88fd2ef06da9cb4db76f97e69432931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/InsideScene/Room/characters/Eli/hair-64-N.png using Guid(a88fd2ef06da9cb4db76f97e69432931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ad8865f71c6497e9307b0842e93a7a7') in 0.044442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Scenes/InsideScene/Room/characters/Eli/outfit-casual-11-v2-f-bottom-N.jpg
+  artifactKey: Guid(ac0ff20b3b5823944be1655e5a4c6c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/InsideScene/Room/characters/Eli/outfit-casual-11-v2-f-bottom-N.jpg using Guid(ac0ff20b3b5823944be1655e5a4c6c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f41819f7c161ba733a3fc1f3ebfd4190') in 0.009614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Scenes/InsideScene/Room/characters/Eli/Wolf3D-fullbody-f-N.jpg
+  artifactKey: Guid(8c5141740a3597c41a599463eb72d1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/InsideScene/Room/characters/Eli/Wolf3D-fullbody-f-N.jpg using Guid(8c5141740a3597c41a599463eb72d1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d9425ffecff0f781171cc788c740e3') in 0.041454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Scenes/InsideScene/Room/characters/Eli/outfit-casual-11-v2-f-footwear-N.jpg
+  artifactKey: Guid(0130d19d1673b2c4e9e609593c7ae562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/InsideScene/Room/characters/Eli/outfit-casual-11-v2-f-footwear-N.jpg using Guid(0130d19d1673b2c4e9e609593c7ae562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1c51c907cd399ef684d68feaac07888') in 0.041778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Scenes/InsideScene/Room/characters/Eli/outfit-casual-11-v2-f-top-N.jpg
+  artifactKey: Guid(1cbf023ebd346c441a35088860adcb70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/InsideScene/Room/characters/Eli/outfit-casual-11-v2-f-top-N.jpg using Guid(1cbf023ebd346c441a35088860adcb70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a8a224145d96879d77f63376c4dfe91') in 0.044644 seconds 
